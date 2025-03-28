@@ -1,40 +1,21 @@
-# 📚 Book Management System
+# Book-Management-System
 
-A Java-based Book Management System that allows librarians to efficiently add, update, search, and remove books, while maintaining their availability status.
+A Java-based CLI application that allows librarians to efficiently add, update, search, and remove books, while maintaining their availability status.
 
----
+# Features:
 
-## 🚀 Features
+Add a Book: Accepts Book ID, Title, Author, Genre, and Availability Status as input.
+Search Books: Search by ID or Title.
+Update Book Details: Modify book details (title, author, genre, availability status).
+Delete a Book: Remove books by ID.
+View All Books: Display the list of all books.
+Exit: Close the application.
 
-- 📖 **Add a Book**
-    - Enter Book ID, Title, Author, Genre, and Availability Status.
-    - Stored in an in-memory collection.
-- 🔍 **View All Books**
-    - Displays the list of all books.
-- 🔎 **Search by ID or Title**
-    - Search for books by ID or Title.
-- 🔧 **Update Book**
-    - Modify book details (title, author, genre, or status).
-- 🗑️ **Delete Book**
-    - Remove books by ID.
-- ✅ **Validation**
-    - Book ID must be unique.
-    - Title and Author cannot be empty.
-    - Availability status must be either `Available` or `Checked Out`.
+# Requirements
+Java 8 or higher
+Maven installed
 
----
-
-## ⚙️ Tech Stack
-
-- **Java** (Core Language)
-- **Maven** (Dependency Management)
-- **JUnit** (Testing)
-
----
-
-## 📥 Installation and Setup
-
-### 1️⃣ **Clone the Repository**
-```bash
-git clone <YOUR-REPO-URL>
-cd Book-Management-System
+# Setup and Run Instructions
+Go to the GitHub Release and download the .jar file.
+Run the .jar file directly:
+ java -jar book-management-system-0.0.1-SNAPSHOT.jar
