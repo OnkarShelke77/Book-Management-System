@@ -19,3 +19,7 @@ Maven installed
 Go to the GitHub Release and download the .jar file.
 Run the .jar file directly:
  java -jar book-management-system-0.0.1-SNAPSHOT.jar
+
+# Deployment Link
+GitHub Repository: https://github.com/OnkarShelke77/Book-Management-System
+Download JAR from GitHub Release
